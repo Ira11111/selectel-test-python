@@ -16,4 +16,5 @@ class Settings(BaseSettings):
     log_level: str = "LOG_LEVEL"
     parse_schedule_minutes: int = "PARSE_SCHEDULE_MINUTES"
 
+
 settings = Settings()
